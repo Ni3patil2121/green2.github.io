@@ -1,0 +1,198 @@
+h1{
+    color: yellow;
+    text-align: center;
+    border-color: rgb(243, 238, 238);
+    border-width: thick;
+    border-style: groove;
+}
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTppMl4aMp0NAHnUsE--H7hXaAaBcB6bcPrA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    border: red 20px double;
+    /* border-color: red; */
+    /* border-style: double; */
+    /* border-width: 20px; */
+    
+}
+
+body, h1, h2, p, input, button, textarea { 
+    margin: 10; 
+    padding: 10; 
+    margin-left: auto;
+     }
+
+
+/* Body & Typography */
+
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 4; 
+    padding: 200px; 
+    padding-top: 40px;
+}
+
+h1 { 
+    color: rgb(244, 154, 65); 
+}
+
+
+
+/* Navigation Bar */
+
+.navbar { 
+    background-color: #f3f0f0; 
+    color: rgb(241, 22, 22); 
+    text-align: center; 
+    padding: 10px;
+    top: 10px; 
+}
+
+.navbar a { 
+    color: rgb(40, 46, 28); 
+    font-size: medium;
+    margin: 0 10px; 
+    text-decoration: none; 
+}
+
+
+/* Sections */
+
+.section { 
+    margin-bottom: 20px; 
+}
+
+.section h2 { 
+    background-color: #201212;
+    box-sizing: border-box;
+    color: rgb(205, 50, 50); 
+    margin-bottom: 10px; 
+}
+
+.nit{
+	display: block;
+	background-color: #ffffff55;
+	border-radius: .4rem;
+	padding: 5rem;
+    position: relative;
+    margin: 0px 0px 0px 0;
+    left: 0px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+    
+}
+
+.ni{
+    background: url(data:image/png;base64,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);
+    width: 90rem;
+    height: auto;
+    border-radius: .8rem;
+    padding: 5rem;
+    background-repeat:inherit;    
+    color: rgb(241, 42, 42);
+}
+.ni1{
+    
+    width: 90rem;
+    height: auto;
+    border-radius: .8rem;
+    padding: 1rem;
+    background-repeat:inherit;    
+    color: rgb(241, 42, 42);
+}
+
+
+
+
+/* Forms and Inputs */
+
+input[type='number'], 
+input[type='text'], 
+textarea { 
+    width: 80%; 
+    padding: 16px; 
+    margin: 15px 0; 
+}
+
+button {
+    background-color: #25d8ec;
+    color: black;
+    padding: 10px 15px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+button:hover { 
+    background-color: #555; 
+}
+
+
+/* BMI Calculator */
+
+#bmiResult { 
+    color: rgb(252, 247, 247); 
+}
+
+
+/* Animations */
+
+@keyframes fadeIn {
+
+    from { opacity: 0; }
+
+    to { opacity: 1; }
+
+}
+
+.fadeIn { animation: fadeIn 2s; }
+
+
+@media screen and ( max-width:600px)
+{
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for larger screens */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .column {
+    width: 100%;
+    float: left;
+  }
+  @media only screen and (min-width: 600px) {
+    /* Styles for tablets and larger screens */
+  }
+  
+  @media only screen and (min-width: 900px) {
+    /* Styles for desktops */
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 2em; /* Twice the default font size */
+  }
+  .mobile-only {
+    display: none; /* Hide on larger screens */
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .mobile-only {
+      display: block; /* Show on smaller screens */
+    }
+  }
+          
